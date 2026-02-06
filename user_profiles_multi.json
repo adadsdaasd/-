@@ -1,0 +1,769 @@
+{
+  "_schema_version": 3,
+  "org": {
+    "id": "org_default",
+    "name": "大团队",
+    "created_at": "2026-02-06 16:03:28",
+    "updated_at": "2026-02-06 16:03:28"
+  },
+  "groups": [
+    {
+      "id": "b7eb420e",
+      "name": "默认小组",
+      "description": "",
+      "tags": [],
+      "created_at": "2026-02-06 16:03:28",
+      "updated_at": "2026-02-06 16:03:28"
+    },
+    {
+      "id": "abc74a95",
+      "name": "项目A",
+      "description": "",
+      "tags": [],
+      "created_at": "2026-02-06 16:03:58",
+      "updated_at": "2026-02-06 16:03:58"
+    },
+    {
+      "id": "ac3bcc65",
+      "name": "项目B",
+      "description": "",
+      "tags": [],
+      "created_at": "2026-02-06 16:05:00",
+      "updated_at": "2026-02-06 16:05:00"
+    }
+  ],
+  "people": [
+    {
+      "id": "97261ec9",
+      "name": "陈静",
+      "phone": "13511112222",
+      "email": "chenjing@example.com",
+      "dedup": {
+        "strategy": "phone_then_email",
+        "key": "phone:13511112222"
+      },
+      "created_at": "2026-02-06 16:03:28",
+      "updated_at": "2026-02-06 16:03:28",
+      "profile": {
+        "姓名": "陈静",
+        "联系方式": {
+          "电话": "13511112222",
+          "邮箱": "chenjing@example.com"
+        },
+        "教育背景": "2014-2018 浙江大学 软件工程 本科；2018-2021 清华大学 计算机视觉 硕士",
+        "工作经历": [
+          "2021-2022 字节跳动 算法工程师",
+          "2022-至今 商汤科技 高级研究员"
+        ],
+        "技能特长": [
+          "计算机视觉",
+          "目标检测",
+          "人脸识别",
+          "OCR",
+          "深度学习框架",
+          "PyTorch",
+          "OpenCV",
+          "模型部署",
+          "TensorRT",
+          "ONNX",
+          "编程语言",
+          "Python",
+          "C++"
+        ],
+        "性格特点": [
+          "专注",
+          "未提及"
+        ],
+        "个人优势": "拥有顶尖的计算机视觉学术背景（清华硕士），在字节跳动和商汤科技等头部AI公司积累了算法研发与工业落地经验，并在CVPR、ICCV等顶级会议发表多篇论文，负责过亿级用户产品的视觉算法项目。",
+        "未来规划": "未提及",
+        "其他亮点": "在CVPR、ICCV等顶会发表论文5篇；具有丰富的工业落地经验，负责过多个亿级用户产品的视觉算法。",
+        "可发展方向": {
+          "短期建议": "深化在特定垂直领域（如自动驾驶、医疗影像、内容生成）的算法领导力，并加强技术管理或项目管理的初步经验，从高级研究员向技术负责人或项目经理角色过渡。",
+          "中期建议": "发展成为计算机视觉领域的专家型管理者或架构师，主导公司核心视觉技术方向，或结合业务需求，探索从算法研究到产品商业化的完整路径。",
+          "长期愿景": "成为人工智能领域，特别是计算机视觉方向的技术领袖或创业者，利用深厚的技术积累和产业经验，推动技术革新或创立技术驱动型公司。"
+        },
+        "可发展优点": {
+          "核心优势": "1. 顶尖的“学术+工业”复合背景：清浙名校教育、顶会论文与头部公司落地经验结合，形成了强大的技术可信度与解决实际问题的能力。2. 亿级规模项目经验：证明了其技术方案具备高可靠性、高性能和可扩展性，这是非常稀缺的实战能力。",
+          "潜力优点": "1. 技术领导潜力：目前角色是高级研究员，其项目负责经验暗示了带领团队和统筹项目的潜力。2. 跨领域应用潜力：计算机视觉是基础能力，可向多个行业（如机器人、元宇宙、智能制造）迁移，具备成为跨领域解决方案专家的潜力。",
+          "发展建议": "1. 将核心优势产品化/方法论化：不仅做算法，更总结出一套从研究到大规模部署的标准化流程或工具，提升个人和团队的技术影响力与效率。2. 主动拓展技术外延：有意识接触产品、业务、市场知识，理解技术如何创造商业价值，将“技术专家”升级为“技术商业桥梁”。3. 建立行业影响力：通过技术博客、行业分享、开源项目等方式，强化个人品牌，将论文、项目经验转化为行业声誉，为长期发展铺路。"
+        }
+      },
+      "sources": [
+        {
+          "type": "pdf_resume",
+          "imported_at": "2026-02-06 16:03:28"
+        }
+      ],
+      "memberships": [
+        {
+          "group_id": "b7eb420e",
+          "joined_at": "2026-02-06 16:03:28",
+          "updated_at": "2026-02-06 16:03:28",
+          "fields": {
+            "source": "pdf_resume"
+          }
+        }
+      ],
+      "performance": {
+        "base_score": 0.0,
+        "events": [],
+        "updated_at": "2026-02-06 16:03:28"
+      }
+    },
+    {
+      "id": "71886431",
+      "name": "张伟",
+      "phone": "13987654321",
+      "email": "zhangwei@cas.cn",
+      "dedup": {
+        "strategy": "phone_then_email",
+        "key": "phone:13987654321"
+      },
+      "created_at": "2026-02-06 16:04:03",
+      "updated_at": "2026-02-06 16:05:05",
+      "profile": {
+        "姓名": "张伟",
+        "电话": "13987654321",
+        "邮箱": "zhangwei@cas.cn",
+        "学历": "博士",
+        "学校": "中国科学院",
+        "专业": "人工智能",
+        "工作经历": "华为AI研究院副教授(2018-至今)",
+        "工作年限": "8年",
+        "技能特长": "深度学习, NLP, PyTorch, 论文写作, 科研项目管理",
+        "个人优势": "NLP领域深厚积累，高水平论文发表能力，科研项目管理经验丰富",
+        "研究方向": "深度学习与自然语言处理",
+        "SCI论文数": "12",
+        "EI论文数": "8",
+        "主持项目数": "3",
+        "未来规划": "在学术领域继续深耕并培养优秀学生",
+        "当前绩效": "95.0",
+        "主要贡献": "获批国家自然科学基金|30; 发表Nature子刊论文|25; 指导3名博士生|10"
+      },
+      "sources": [
+        {
+          "type": "file_upload",
+          "imported_at": "2026-02-06 16:04:03"
+        },
+        {
+          "type": "file_upload",
+          "imported_at": "2026-02-06 16:04:48"
+        },
+        {
+          "type": "file_upload",
+          "imported_at": "2026-02-06 16:05:05"
+        }
+      ],
+      "memberships": [
+        {
+          "group_id": "abc74a95",
+          "joined_at": "2026-02-06 16:04:03",
+          "updated_at": "2026-02-06 16:04:48",
+          "fields": {
+            "source": "file_upload",
+            "研究方向": "深度学习与自然语言处理"
+          }
+        },
+        {
+          "group_id": "ac3bcc65",
+          "joined_at": "2026-02-06 16:05:05",
+          "updated_at": "2026-02-06 16:05:05",
+          "fields": {
+            "source": "file_upload"
+          }
+        }
+      ],
+      "performance": {
+        "base_score": 95.0,
+        "events": [
+          {
+            "id": "e_9ca2d06d",
+            "type": "import_base",
+            "delta": 95.0,
+            "title": "导入自列 [当前绩效]",
+            "note": "",
+            "group_id": null,
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_b7850bb0",
+            "type": "contribution",
+            "delta": 30.0,
+            "title": "获批国家自然科学基金",
+            "note": "",
+            "group_id": "abc74a95",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_bc35ee6a",
+            "type": "contribution",
+            "delta": 25.0,
+            "title": "发表Nature子刊论文",
+            "note": "",
+            "group_id": "abc74a95",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_b03b0fe5",
+            "type": "contribution",
+            "delta": 10.0,
+            "title": "指导3名博士生",
+            "note": "",
+            "group_id": "abc74a95",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_3a20039f",
+            "type": "import_base",
+            "delta": 95.0,
+            "title": "导入自列 [当前绩效]",
+            "note": "",
+            "group_id": null,
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_73df93b1",
+            "type": "contribution",
+            "delta": 30.0,
+            "title": "获批国家自然科学基金",
+            "note": "",
+            "group_id": "ac3bcc65",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_331bed53",
+            "type": "contribution",
+            "delta": 25.0,
+            "title": "发表Nature子刊论文",
+            "note": "",
+            "group_id": "ac3bcc65",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_a9d655ff",
+            "type": "contribution",
+            "delta": 10.0,
+            "title": "指导3名博士生",
+            "note": "",
+            "group_id": "ac3bcc65",
+            "at": "2026-02-06"
+          }
+        ],
+        "updated_at": "2026-02-06 16:05:05"
+      }
+    },
+    {
+      "id": "a9d79550",
+      "name": "陈静",
+      "phone": "13722223333",
+      "email": "chenjing@sensetime.com",
+      "dedup": {
+        "strategy": "phone_then_email",
+        "key": "phone:13722223333"
+      },
+      "created_at": "2026-02-06 16:04:04",
+      "updated_at": "2026-02-06 16:05:05",
+      "profile": {
+        "姓名": "陈静",
+        "电话": "13722223333",
+        "邮箱": "chenjing@sensetime.com",
+        "学历": "硕士",
+        "学校": "清华大学",
+        "专业": "计算机视觉",
+        "工作经历": "商汤科技高级研究员(2020-至今)",
+        "工作年限": "4年",
+        "技能特长": "计算机视觉, PyTorch, 模型部署, TensorRT, ONNX",
+        "个人优势": "CV领域实战经验丰富，多项发明专利，模型落地能力强",
+        "研究方向": "计算机视觉与图像识别",
+        "SCI论文数": "6",
+        "EI论文数": "4",
+        "主持项目数": "1",
+        "未来规划": "推动CV技术在工业界的大规模落地应用",
+        "当前绩效": "88.0",
+        "主要贡献": "TensorRT模型加速方案落地|18; 申请发明专利3项|12"
+      },
+      "sources": [
+        {
+          "type": "file_upload",
+          "imported_at": "2026-02-06 16:04:04"
+        },
+        {
+          "type": "file_upload",
+          "imported_at": "2026-02-06 16:04:48"
+        },
+        {
+          "type": "file_upload",
+          "imported_at": "2026-02-06 16:05:05"
+        }
+      ],
+      "memberships": [
+        {
+          "group_id": "abc74a95",
+          "joined_at": "2026-02-06 16:04:04",
+          "updated_at": "2026-02-06 16:04:48",
+          "fields": {
+            "source": "file_upload",
+            "研究方向": "计算机视觉与图像识别"
+          }
+        },
+        {
+          "group_id": "ac3bcc65",
+          "joined_at": "2026-02-06 16:05:05",
+          "updated_at": "2026-02-06 16:05:05",
+          "fields": {
+            "source": "file_upload"
+          }
+        }
+      ],
+      "performance": {
+        "base_score": 88.0,
+        "events": [
+          {
+            "id": "e_ee354bc2",
+            "type": "import_base",
+            "delta": 88.0,
+            "title": "导入自列 [当前绩效]",
+            "note": "",
+            "group_id": null,
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_080b6dd9",
+            "type": "contribution",
+            "delta": 18.0,
+            "title": "TensorRT模型加速方案落地",
+            "note": "",
+            "group_id": "abc74a95",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_7fb017e0",
+            "type": "contribution",
+            "delta": 12.0,
+            "title": "申请发明专利3项",
+            "note": "",
+            "group_id": "abc74a95",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_8af882d7",
+            "type": "import_base",
+            "delta": 88.0,
+            "title": "导入自列 [当前绩效]",
+            "note": "",
+            "group_id": null,
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_c198dbec",
+            "type": "contribution",
+            "delta": 18.0,
+            "title": "TensorRT模型加速方案落地",
+            "note": "",
+            "group_id": "ac3bcc65",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_1e3006aa",
+            "type": "contribution",
+            "delta": 12.0,
+            "title": "申请发明专利3项",
+            "note": "",
+            "group_id": "ac3bcc65",
+            "at": "2026-02-06"
+          }
+        ],
+        "updated_at": "2026-02-06 16:05:05"
+      }
+    },
+    {
+      "id": "516976cc",
+      "name": "赵明华",
+      "phone": "13955556666",
+      "email": "zhaomh@pku.edu.cn",
+      "dedup": {
+        "strategy": "phone_then_email",
+        "key": "phone:13955556666"
+      },
+      "created_at": "2026-02-06 16:04:04",
+      "updated_at": "2026-02-06 16:04:04",
+      "profile": {
+        "姓名": "赵明华",
+        "电话": "13955556666",
+        "邮箱": "zhaomh@pku.edu.cn",
+        "学历": "博士",
+        "学校": "北京大学",
+        "专业": "数据科学",
+        "工作经历": "北京大学教授(2015-至今);微软亚洲研究院研究员(2010-2015)",
+        "工作年限": "12年",
+        "技能特长": "大数据分析;知识图谱;机器学习;Python",
+        "个人优势": "国家杰出青年基金获得者;出版学术专著2部",
+        "研究方向": "大数据分析与知识图谱",
+        "SCI论文数": "18",
+        "EI论文数": "10",
+        "主持项目数": "5"
+      },
+      "sources": [
+        {
+          "type": "file_upload",
+          "imported_at": "2026-02-06 16:04:04"
+        }
+      ],
+      "memberships": [
+        {
+          "group_id": "abc74a95",
+          "joined_at": "2026-02-06 16:04:04",
+          "updated_at": "2026-02-06 16:04:04",
+          "fields": {
+            "source": "file_upload",
+            "研究方向": "大数据分析与知识图谱"
+          }
+        }
+      ],
+      "performance": {
+        "base_score": 0.0,
+        "events": [],
+        "updated_at": "2026-02-06 16:04:04"
+      }
+    },
+    {
+      "id": "19d7e674",
+      "name": "李明",
+      "phone": "13812345678",
+      "email": "liming@example.com",
+      "dedup": {
+        "strategy": "phone_then_email",
+        "key": "phone:13812345678"
+      },
+      "created_at": "2026-02-06 16:04:48",
+      "updated_at": "2026-02-06 16:05:05",
+      "profile": {
+        "姓名": "李明",
+        "电话": "13812345678",
+        "邮箱": "liming@example.com",
+        "学历": "硕士",
+        "学校": "清华大学",
+        "专业": "计算机科学与技术",
+        "工作经历": "阿里巴巴高级算法工程师(2019-至今)",
+        "工作年限": "5年",
+        "技能特长": "Python, 机器学习, 推荐系统, TensorFlow, Spark",
+        "个人优势": "扎实的算法基础和丰富的工业界经验，推荐系统领域专家",
+        "未来规划": "成为AI算法领域技术专家，带领更大团队",
+        "当前绩效": "85.0",
+        "主要贡献": "主导推荐系统V2.0上线|20; 发表ACM论文1篇|10"
+      },
+      "sources": [
+        {
+          "type": "file_upload",
+          "imported_at": "2026-02-06 16:04:48"
+        },
+        {
+          "type": "file_upload",
+          "imported_at": "2026-02-06 16:05:05"
+        }
+      ],
+      "memberships": [
+        {
+          "group_id": "ac3bcc65",
+          "joined_at": "2026-02-06 16:05:05",
+          "updated_at": "2026-02-06 16:05:05",
+          "fields": {
+            "source": "file_upload"
+          }
+        }
+      ],
+      "performance": {
+        "base_score": 85.0,
+        "events": [
+          {
+            "id": "e_3810d6d3",
+            "type": "import_base",
+            "delta": 85.0,
+            "title": "导入自列 [当前绩效]",
+            "note": "",
+            "group_id": null,
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_12235f22",
+            "type": "contribution",
+            "delta": 20.0,
+            "title": "主导推荐系统V2.0上线",
+            "note": "",
+            "group_id": "abc74a95",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_d75abb23",
+            "type": "contribution",
+            "delta": 10.0,
+            "title": "发表ACM论文1篇",
+            "note": "",
+            "group_id": "abc74a95",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_29fe73fa",
+            "type": "import_base",
+            "delta": 85.0,
+            "title": "导入自列 [当前绩效]",
+            "note": "",
+            "group_id": null,
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_deebf364",
+            "type": "contribution",
+            "delta": 20.0,
+            "title": "主导推荐系统V2.0上线",
+            "note": "",
+            "group_id": "ac3bcc65",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_3b945cb4",
+            "type": "contribution",
+            "delta": 10.0,
+            "title": "发表ACM论文1篇",
+            "note": "",
+            "group_id": "ac3bcc65",
+            "at": "2026-02-06"
+          }
+        ],
+        "updated_at": "2026-02-06 16:05:05"
+      }
+    },
+    {
+      "id": "e8ced4f6",
+      "name": "王芳",
+      "phone": "13611112222",
+      "email": "wangfang@tencent.com",
+      "dedup": {
+        "strategy": "phone_then_email",
+        "key": "phone:13611112222"
+      },
+      "created_at": "2026-02-06 16:04:48",
+      "updated_at": "2026-02-06 16:05:05",
+      "profile": {
+        "姓名": "王芳",
+        "电话": "13611112222",
+        "邮箱": "wangfang@tencent.com",
+        "学历": "本科",
+        "学校": "北京大学",
+        "专业": "软件工程",
+        "工作经历": "腾讯前端开发工程师(2021-至今)",
+        "工作年限": "3年",
+        "技能特长": "React, Vue, TypeScript, 微信小程序, CSS",
+        "个人优势": "精通现代前端框架，良好的用户体验意识，快速学习能力强",
+        "未来规划": "成为前端技术专家并探索全栈发展",
+        "当前绩效": "72.5",
+        "主要贡献": "重构前端组件库|15; 完成小程序性能优化|8"
+      },
+      "sources": [
+        {
+          "type": "file_upload",
+          "imported_at": "2026-02-06 16:04:48"
+        },
+        {
+          "type": "file_upload",
+          "imported_at": "2026-02-06 16:05:05"
+        }
+      ],
+      "memberships": [
+        {
+          "group_id": "ac3bcc65",
+          "joined_at": "2026-02-06 16:05:05",
+          "updated_at": "2026-02-06 16:05:05",
+          "fields": {
+            "source": "file_upload"
+          }
+        }
+      ],
+      "performance": {
+        "base_score": 72.5,
+        "events": [
+          {
+            "id": "e_c0185efe",
+            "type": "import_base",
+            "delta": 72.5,
+            "title": "导入自列 [当前绩效]",
+            "note": "",
+            "group_id": null,
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_96a1437f",
+            "type": "contribution",
+            "delta": 15.0,
+            "title": "重构前端组件库",
+            "note": "",
+            "group_id": "abc74a95",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_b1647a15",
+            "type": "contribution",
+            "delta": 8.0,
+            "title": "完成小程序性能优化",
+            "note": "",
+            "group_id": "abc74a95",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_10aac8b6",
+            "type": "import_base",
+            "delta": 72.5,
+            "title": "导入自列 [当前绩效]",
+            "note": "",
+            "group_id": null,
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_e58a73fd",
+            "type": "contribution",
+            "delta": 15.0,
+            "title": "重构前端组件库",
+            "note": "",
+            "group_id": "ac3bcc65",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_cd87574c",
+            "type": "contribution",
+            "delta": 8.0,
+            "title": "完成小程序性能优化",
+            "note": "",
+            "group_id": "ac3bcc65",
+            "at": "2026-02-06"
+          }
+        ],
+        "updated_at": "2026-02-06 16:05:05"
+      }
+    },
+    {
+      "id": "ef28cb12",
+      "name": "刘洋",
+      "phone": "13833334444",
+      "email": "liuyang@bytedance.com",
+      "dedup": {
+        "strategy": "phone_then_email",
+        "key": "phone:13833334444"
+      },
+      "created_at": "2026-02-06 16:04:49",
+      "updated_at": "2026-02-06 16:05:05",
+      "profile": {
+        "姓名": "刘洋",
+        "电话": "13833334444",
+        "邮箱": "liuyang@bytedance.com",
+        "学历": "硕士",
+        "学校": "浙江大学",
+        "专业": "软件工程",
+        "工作经历": "字节跳动后端架构师(2020-至今)",
+        "工作年限": "6年",
+        "技能特长": "Go, Java, 分布式系统, Kubernetes, Docker",
+        "个人优势": "分布式系统架构经验丰富，高并发处理能力强，技术视野开阔",
+        "未来规划": "成为技术架构专家并参与开源社区建设",
+        "当前绩效": "90.5",
+        "主要贡献": "设计微服务架构迁移方案|25; 开源Go框架Star 2k+|15; 优化集群成本30%|10"
+      },
+      "sources": [
+        {
+          "type": "file_upload",
+          "imported_at": "2026-02-06 16:04:49"
+        },
+        {
+          "type": "file_upload",
+          "imported_at": "2026-02-06 16:05:05"
+        }
+      ],
+      "memberships": [
+        {
+          "group_id": "ac3bcc65",
+          "joined_at": "2026-02-06 16:05:05",
+          "updated_at": "2026-02-06 16:05:05",
+          "fields": {
+            "source": "file_upload"
+          }
+        }
+      ],
+      "performance": {
+        "base_score": 90.5,
+        "events": [
+          {
+            "id": "e_f2cd2d78",
+            "type": "import_base",
+            "delta": 90.5,
+            "title": "导入自列 [当前绩效]",
+            "note": "",
+            "group_id": null,
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_21b4e91d",
+            "type": "contribution",
+            "delta": 25.0,
+            "title": "设计微服务架构迁移方案",
+            "note": "",
+            "group_id": "abc74a95",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_a04a974b",
+            "type": "contribution",
+            "delta": 15.0,
+            "title": "开源Go框架Star 2k+",
+            "note": "",
+            "group_id": "abc74a95",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_7a5665f5",
+            "type": "contribution",
+            "delta": 10.0,
+            "title": "优化集群成本30%",
+            "note": "",
+            "group_id": "abc74a95",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_84dfb5d2",
+            "type": "import_base",
+            "delta": 90.5,
+            "title": "导入自列 [当前绩效]",
+            "note": "",
+            "group_id": null,
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_eb830fcb",
+            "type": "contribution",
+            "delta": 25.0,
+            "title": "设计微服务架构迁移方案",
+            "note": "",
+            "group_id": "ac3bcc65",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_e67f2abe",
+            "type": "contribution",
+            "delta": 15.0,
+            "title": "开源Go框架Star 2k+",
+            "note": "",
+            "group_id": "ac3bcc65",
+            "at": "2026-02-06"
+          },
+          {
+            "id": "e_8b44363b",
+            "type": "contribution",
+            "delta": 10.0,
+            "title": "优化集群成本30%",
+            "note": "",
+            "group_id": "ac3bcc65",
+            "at": "2026-02-06"
+          }
+        ],
+        "updated_at": "2026-02-06 16:05:05"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "shared_data_path": "\\\\server\\shared\\digital_twin",
+  "local_config_path": "C:\\Users\\YourName\\DigitalTwin",
+  "version": "1.0",
+  "description": "Digital Twin 部署配置 - 多人版数据共享，个人版配置独立",
+  "notes": [
+    "shared_data_path: 共享数据目录路径（所有人共用）",
+    "local_config_path: 本地配置目录路径（每个用户独立）",
+    "将此文件复制为 deployment_config.json 并根据实际情况修改路径"
+  ]
+}
